@@ -183,3 +183,13 @@ $ make
 - Support menuconfig
 - More boards
 - Complete development documentation
+
+
+## Build with docker
+
+Run
+
+```shell
+$ docker build -t lilygo-micropython:latest .
+$ docker run --volume $(pwd):/mpy lilygo-micropython:latest /mpy/build.sh
+```
