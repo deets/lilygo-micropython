@@ -20,4 +20,4 @@ set(SDKCONFIG_DEFAULTS boards/sdkconfig.base
 
 set(MICROPY_FROZEN_MANIFEST ${CMAKE_CURRENT_LIST_DIR}/manifest.py)
 
-set(EXTMOD_LCD 1)
+#set(EXTMOD_LCD 1)
